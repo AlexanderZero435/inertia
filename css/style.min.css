@@ -1,0 +1,349 @@
+/*@font-face{
+	font-family:'Roboto-Regular';
+	font-weight:700;
+	font-style:normal;
+	src:local("Roboto-Regular"),url("../fonts/Roboto-Regular.woff2"),url("../fonts/Roboto-Regular.woff");
+	font-display:swap}*/
+
+html{
+	box-sizing:border-box;}
+	*,*::after,*::before{box-sizing:inherit}
+ul[class],ol[class]{padding:0}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,figure,figcaption,blockquote,dl,dd{margin:0}
+ul[class]{list-style:none}
+img{max-width:100%;display:block}
+input,button,textarea,select{font:inherit}
+a{
+	text-decoration:none;
+	background-color: rgb(80, 80, 80);
+	box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+}
+a:hover
+{
+	background-color: rgb(100, 100, 100);
+}
+body{
+	/*background: linear-gradient(
+    360deg,
+    rgba(5, 5, 5, 1) 12%,
+    rgba(33, 33, 33, 1) 100%);*/
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/3.jpg');
+	font-size:13px;
+	line-height:19px;
+	color:#000;
+	font-family:'Roboto-Regular', sans-serif;
+	font-weight:400;}
+
+
+
+.container{
+	max-width:1020px;
+	width:100%;
+	padding:0 10px;
+	margin:0 auto}
+
+.primary__detail{
+	background-color:rgb(27, 27, 27);
+	border:none;
+	color:#eee;
+	padding:10px 15px;
+	font-size:16px;
+	line-height:19px;
+	text-transform:uppercase;
+	display:inline-block;
+	border-radius:5px;
+	transition:all .3s}
+
+.primary__detail:hover{
+	background-color:rgb(90, 90, 90);}
+
+.header__inner{
+
+	display:flex}
+
+.header__photo{
+	width: 125px;
+	height: auto;
+	flex-basis:120px;
+	border-radius:0px;
+	-o-object-fit:cover;
+	box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+	object-fit:cover}
+.header__photo:hover{
+	transition: 1s;
+	transform: scale(1.5) translateX(15%) translateY(15%);
+	}
+.header__content{
+	flex-basis:930px}
+
+.header__content-top{
+	display:flex}
+
+.header__personal-info{
+	width:100%}
+
+.header__info-top{
+	display:flex}
+
+.header__info-text--box{
+	padding:4px 0 4px 10px;
+	width:100%;
+	background-color:rgb(80, 80, 80);
+	box-shadow: -5px 5px 10px 0px rgba(0, 0, 0, 0.3);
+	color: #eee;
+	}
+
+.header__info-text{
+	font-size:14px;
+	line-height:17px}
+
+.header__info-bottom{
+	padding:4px 0 4px 10px;
+	background: linear-gradient(
+    -90deg,
+    rgba(22, 22, 22, 1) -2%,
+    rgba(50, 50, 50, 1) 55%);
+	
+	color: #eee;
+	}
+
+.header__content-bottom{
+	text-align:center;
+	border-radius:5px}
+
+.header__content-link{
+	padding:5px 0;display:inline-block;
+	background-color:rgb(45, 45, 45);
+	color:rgb(180, 180, 180);
+	width:100%;
+	transition:all .3s}
+.header__content-link:hover{background-color:rgb(80, 80, 80);}
+
+.footer{margin-top:15px}
+.footer__inner{
+	border-radius:5px;
+	padding:30px 0;
+	background-color:#505050;
+	background: linear-gradient(
+    0deg,
+    rgba(14, 14, 14, 1) 83%,
+    rgba(106, 22, 22, 1) 55%);
+	}
+.footer__socials{display:flex;justify-content:center}
+a.footer__socials-link+.footer__socials-link{margin-left:30px; background-color: rgba(0, 0, 0, 0.0)}
+a.footer__socials-link path{fill:#000;transition:all .3s;background-color: rgba(0, 0, 0, 0.0)}
+.footer__socials-link:hover path{fill:#7aa9af}
+
+.primary{margin-top:20px}
+.primary__inner{
+	background-color:#272727;
+	background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%
+  );
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+	border-radius:5px;
+
+}
+.primary__top{display:flex}
+.primary__content{flex-basis:776px;margin-right:10px}
+.primary__publicity{
+	flex-basis:214px;
+	
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/2.jpg');
+	background-size: 100%;
+	border-radius:5px;margin-bottom:10px;
+	display:flex;justify-content:center;
+	align-items:center}
+.primary__title{padding:25px 0 25px 5px;font-size:28px;line-height:34px;color: #eee;}
+
+.primary__biography-box{
+	margin-bottom:10px;
+	background-color:#424242;border-radius:5px;padding:10px;color: #eee;}
+.primary__biography{margin-bottom:10px}
+
+.primary__group-box{
+	margin-bottom:10px;
+	background-color:#424242;
+	border-radius:5px;
+	padding:10px;
+	color: #eee}
+.primary__group{margin-bottom:10px}
+
+.primary__hobbies{margin:15px 0}
+.primary__hobbies-title{font-size:24px;line-height:28px;padding-left:5px;color: #eee;}
+.primary__hobbies-items{
+	display:-ms-grid;
+	display:grid;-ms-grid-columns:1fr 1fr 1fr;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap:15px;
+	margin-top:10px}
+.primary__hobby-item{
+	background-color:#606060;
+	padding:15px;
+	border-radius:5px;
+	min-height:140px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between}
+.primary .primary__detail{text-align:center}
+.primary__interesting{background-color:#505050;border-radius:5px;padding:10px;margin-bottom:10px}
+.primary__interesting-text{margin-bottom:10px}
+.primary__bottom{display:-ms-grid;display:grid;-ms-grid-columns:1fr 214px 214px;grid-template-columns:1fr 214px 214px;grid-gap:15px}
+
+.primary__bottom-publicity_1{
+	background-color:#f34f4e;
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/6.jpg');
+	background-size: 100%;
+	min-height:150px;
+	border-radius:5px;
+	padding:15px;
+	display:flex;
+	justify-content:center;
+	align-items:center}
+
+	.primary__bottom-publicity_2{
+	background-color:#f34f4e;
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/5.png');
+	background-size: 105%;
+	min-height:150px;
+	border-radius:5px;
+	padding:15px;
+	display:flex;
+	justify-content:center;
+	align-items:center}
+
+	.primary__bottom-publicity_3{
+	background-color:#f34f4e;
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/4.jpg');
+	background-size: 120%;
+	min-height:150px;
+	border-radius:5px;
+	padding:15px;
+	display:flex;
+	justify-content:center;
+	align-items:center}
+
+.biography{margin-top:20px}
+
+.biography__inner{
+	background-color:#e5e5e5;
+	background: linear-gradient(
+    0deg,
+    rgba(209, 209, 209, 1) 85%,
+    rgba(22, 22, 22, 1) 105%);
+	
+	border-radius:5px;
+	padding-left:10px}
+
+.biography__inner2{
+	background-color:#d6d6d6;
+	backgroud: linear-gradient(
+    0deg,
+    rgb(106 22 22) -28%,
+    rgb(214 214 214) 16%);
+	border-radius:5px;
+	padding-left:10px;}
+
+.biography__title{padding:25px 0 25px 5px}
+.biography__title2{padding:25px 0 0px 0px}
+.biography__title_red{padding:0px 0 25px 0px; color: darkred;}
+.biography__img{
+	width: 256px;
+	height: auto;
+	-o-object-fit:cover;
+	object-fit:cover;
+	margin-right:25px;
+	float:left}
+.biography__img2{
+	width: 256px;
+	height: auto;
+	-o-object-fit:cover;
+	object-fit:cover;
+	margin-right:25px;
+	float:right;}
+.biography__img3{
+	width: 100px;
+	height: auto;
+	opacity: 0.3;
+	-o-object-fit:cover;
+	object-fit:cover;
+	margin-right:25px;
+	float:left;}
+.biography__text{margin-bottom:15px}.group{margin-top:20px}
+.group__inner{
+	background-color:#525252;
+	background: linear-gradient(
+    0deg,
+    rgb(106 22 22) -28%,
+    rgb(214 214 214) 16%);
+	border-radius:5px;
+	padding-left:10px}
+
+.gd__inner{
+	background: linear-gradient(
+    50deg,
+    rgba(255, 255, 255, 0.4) 12%,
+    rgba(255, 255, 255, 0.1) 77%
+  );
+  box-shadow: 0px 4px 24px 1px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+	border-radius:5px;
+	padding-left:10px}
+.group__title{padding:25px 0 25px 5px;font-size:28px;line-height:34px}
+.group__info{margin-bottom:30px}
+.group__info-text{margin-bottom:15px}
+.group__info-img{max-width:500px;-o-object-fit:cover;object-fit:cover}
+
+.group__publicity-items{
+	display:-ms-grid;
+	display:grid;-ms-grid-columns:1fr 1fr 1fr;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-gap:15px}
+.group__publicity-item{
+	background-color:#272727;
+	color: darkred;
+	font-size: 20px;
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/3.jpg');
+	background-size: 100%;
+	min-height:100px;
+	border-radius:5px;
+	display:flex;
+	align-items:center;
+	justify-content:center}
+
+.hobbies{margin-top:20px}
+.scale {
+    display: inline-block; /* Строчно-блочный элемент */
+    overflow: hidden; /* Скрываем всё за контуром */
+    border-radius:5px;
+   }
+.scale img {
+    transition: 1s; /* Время эффекта */
+    display: block; /* Убираем небольшой отступ снизу */
+   }
+.scale img:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+.hobbies__inner{background-color:#FAFFD9;border-radius:5px;padding-left:10px;display:flex}
+.hobbies__content{flex-basis:776px;margin-right:10px}
+.hobbies__title{padding:25px 0 25px 5px;font-size:28px;line-height:34px}
+.hobbies__items{display:-ms-grid;display:grid;-ms-grid-columns:1fr 1fr 1fr;grid-template-columns:1fr 1fr 1fr;grid-gap:15px}
+.hobbies__item{background-color:#F4FEB8;border-radius:5px;padding:10px}
+.hobbies__item-title{font-size:20px;line-height:24px;text-align:center;margin-bottom:15px}
+.hobbies__item-img{-o-object-fit:cover;object-fit:cover;border-radius:5px;margin-bottom:15px}
+.hobbies__item-text{margin-bottom:10px}
+.hobbies__publicity{flex-basis:214px;background-color:#c6e3e7;border-radius:5px;padding:10px}
+.interesting{margin-top:20px}
+.interesting__inner{background-color:#505050;border-radius:5px;padding-left:10px}
+.interesting__title{padding:25px 0 25px 5px;font-size:28px;line-height:34px}
+.interesting__item{display:flex;margin-bottom:15px}
+.interesting__item-img{margin-right:15px;max-width:250px;-o-object-fit:cover;object-fit:cover}
+.interesting__item-text--box{background-color:#1d1c22;padding:15px;border-radius:5px; color:#eee ;}
+.interesting__item-text{margin-bottom:10px}
+
+
