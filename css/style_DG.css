@@ -166,7 +166,7 @@ a:hover
 	background-color: rgb(100, 100, 100);
 }
 body{
-	background-image: url('../images/liquid.jpg');
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/liquid.jpg');
 	font-size:13px;
 	line-height:19px;
 	color:#000;
@@ -207,9 +207,9 @@ body{
     rgba(106, 22, 22, 1) 55%);
 	}
 .footer__socials{display:flex;justify-content:center}
-.footer__socials-link+.footer__socials-link{margin-left:30px}
-.footer__socials-link path{fill:#000;transition:all .3s}
-.footer__socials-link:hover path{fill:#7aa9af}
+.footer__socials-link{margin-left:30px; background-color: #141414; border-radius: 35px;}
+.footer__socials-link path{fill:#000;transition:all .3s;background-color: #141414}
+.footer__socials-link:hover path{fill:#7aa9af; background-color: #141414}
 
 .gd__inner{
 	background: linear-gradient(
@@ -239,12 +239,11 @@ body{
 	display:-ms-grid;
 	display:grid;-ms-grid-columns: 1fr 1fr 1fr;
 	grid-template-columns:1fr 1fr 1fr;
-	grid-gap:150px;
+	grid-gap:0px;
 	margin-top:10px}
 .primary__detail{text-align:center; color: #eee;}
 .primary__hobby-item{
 	background-color:#5a2b3d;
-	padding:15px;
 	border-radius:5px;
 	min-height:200px;
 	display:flex;
@@ -252,11 +251,14 @@ body{
 	justify-content:space-between}
 
 .scale {
+    width: 326px;
+    height: auto;
     display: inline-block; /* Строчно-блочный элемент */
     overflow: hidden; /* Скрываем всё за контуром */
     border-radius:5px;
    }
 .scale img {
+    align-content: center;
     transition: 1s; /* Время эффекта */
     display: block; /* Убираем небольшой отступ снизу */
    }
