@@ -26,9 +26,8 @@ body{
 	/*background: linear-gradient(
     360deg,
     rgba(5, 5, 5, 1) 12%,
-    rgba(33, 33, 33, 1) 100%);
-	*/
-	background-image: url('../images/BG/3.jpg');
+    rgba(33, 33, 33, 1) 100%);*/
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/3.jpg');
 	font-size:13px;
 	line-height:19px;
 	color:#000;
@@ -131,9 +130,9 @@ body{
     rgba(106, 22, 22, 1) 55%);
 	}
 .footer__socials{display:flex;justify-content:center}
-a.footer__socials-link+.footer__socials-link{margin-left:30px; background-color: rgba(0, 0, 0, 0.0)}
-a.footer__socials-link path{fill:#000;transition:all .3s;background-color: rgba(0, 0, 0, 0.0)}
-.footer__socials-link:hover path{fill:#7aa9af}
+.footer__socials-link{margin-left:30px; background-color: #141414; border-radius: 35px;}
+.footer__socials-link path{fill:#000;transition:all .3s;background-color: #141414}
+.footer__socials-link:hover path{fill:#7aa9af; background-color: #141414}
 
 .primary{margin-top:20px}
 .primary__inner{
@@ -154,7 +153,7 @@ a.footer__socials-link path{fill:#000;transition:all .3s;background-color: rgba(
 .primary__publicity{
 	flex-basis:214px;
 	
-	background-image: url('../images/BG/2.jpg');
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/2.jpg');
 	background-size: 100%;
 	border-radius:5px;margin-bottom:10px;
 	display:flex;justify-content:center;
@@ -197,7 +196,7 @@ a.footer__socials-link path{fill:#000;transition:all .3s;background-color: rgba(
 
 .primary__bottom-publicity_1{
 	background-color:#f34f4e;
-	background-image: url('../images/BG/6.jpg');
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/6.jpg');
 	background-size: 100%;
 	min-height:150px;
 	border-radius:5px;
@@ -208,7 +207,7 @@ a.footer__socials-link path{fill:#000;transition:all .3s;background-color: rgba(
 
 	.primary__bottom-publicity_2{
 	background-color:#f34f4e;
-	background-image: url('../images/BG/5.png');
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/5.png');
 	background-size: 105%;
 	min-height:150px;
 	border-radius:5px;
@@ -219,7 +218,7 @@ a.footer__socials-link path{fill:#000;transition:all .3s;background-color: rgba(
 
 	.primary__bottom-publicity_3{
 	background-color:#f34f4e;
-	background-image: url('../images/BG/4.jpg');
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/4.jpg');
 	background-size: 120%;
 	min-height:150px;
 	border-radius:5px;
@@ -309,7 +308,7 @@ a.footer__socials-link path{fill:#000;transition:all .3s;background-color: rgba(
 	background-color:#272727;
 	color: darkred;
 	font-size: 20px;
-	background-image: url('../images/BG/3.jpg');
+	background-image: url('file:///D:/WORKBENCH/111EP3 PART2/WEB/LR4 DATA/lab4/images/BG/3.jpg');
 	background-size: 100%;
 	min-height:100px;
 	border-radius:5px;
